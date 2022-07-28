@@ -1,9 +1,13 @@
 :root {
-  --dark-green: 264653;
-  --light-green: 2A9D8F;
-  --light-yellow: E9C46A;
-  --tangerine: F4A261;
-  --grapefruit: E76F51;
+  --dark-green: #264653;
+  --light-green: #2A9D8F;
+  --light-yellow: #E9C46A;
+  --tangerine: #F4A261;
+  --grapefruit: #E76F51;
+}
+
+html {
+  background-color: var(--light-yellow);
 }
 
 body {
@@ -25,4 +29,15 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.snap {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.snap > div {
+  scroll-snap-align: center;
 }

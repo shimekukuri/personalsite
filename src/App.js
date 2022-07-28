@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./component/Container";
+import Navigator from "./component/Nav";
 import "./App.css";
 
 function App() {
@@ -7,15 +8,16 @@ function App() {
     <>
       <div className="snap">
         <Container classes="first-container">
-          <h1 style={{marginLeft: "8px"}}>test</h1>
+          <h1 style={{ marginLeft: "8px" }}>test</h1>
         </Container>
         <Container>
-          <h2 style={{marginLeft: "8px"}}>test 2</h2>
+          <h2 style={{ marginLeft: "8px" }}>test 2</h2>
         </Container>
         <Container>
-          <h2 style={{marginLeft: "8px"}}>test 3</h2>
+          <h2 style={{ marginLeft: "8px" }}>test 3</h2>
         </Container>
       </div>
+      <Navigator />
     </>
   );
 }

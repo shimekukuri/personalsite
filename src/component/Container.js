@@ -1,4 +1,5 @@
 import React from "react";
+import Navigator from "./Nav";
 import "./Container.css";
 import clsx from "clsx";
 
@@ -14,6 +15,7 @@ export default function Container(props) {
         className={classForStyles}
       >
         <div className={innerContainerStyles}>{children}</div>
+        {/*[classes].includes("first-container") && <Navigator />*/}
       </div>
     </>
   );

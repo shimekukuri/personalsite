@@ -1,0 +1,22 @@
+.backgroundred {
+  background-color: red;
+}
+
+.first-container {
+    height: 100vh; 
+    width: 100vw; 
+    margin-top: opx; 
+}
+
+.container {
+    height: 100vh; 
+    width: 100vw; 
+    margin-top: 8px; 
+}
+
+.inner-container {
+  height: 100%;
+  width: 80vw;
+  background-color: red;
+}
+
